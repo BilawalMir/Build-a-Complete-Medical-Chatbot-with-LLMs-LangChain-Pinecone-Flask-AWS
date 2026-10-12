@@ -1,9 +1,38 @@
-langchain==0.3.26
-flask==3.1.1 
-sentence-transformers==4.1.0
-pypdf==5.6.1 
-python-dotenv==1.1.0
-langchain-pinecone==0.2.8 
-langchain-openai==0.3.24
-langchain-community==0.3.26
+#langchain==0.3.26
+#flask==3.1.1 
+#sentence-transformers==4.1.0
+#pypdf==5.6.1 
+#python-dotenv==1.1.0
+#langchain-pinecone==0.2.8 
+#langchain-openai==0.3.24
+#langchain-community==0.3.26
+
+# LangChain
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# LLM / OpenAI
+langchain-openai
+openai
+
+# Hugging Face
+huggingface_hub
+langchain-huggingface
+
+# Vector database
+faiss-cpu
+
+# Document loading
+pypdf
+
+# Streamlit UI
+streamlit
+
+# Environment variables
+python-dotenv
+
+# Useful utilities
+tiktoken
 -e .
